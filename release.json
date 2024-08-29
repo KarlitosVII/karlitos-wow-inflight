@@ -1,0 +1,16 @@
+{
+    "releases": [
+        {
+            "name":"InFlight TWW",
+            "version":"11.0.1",
+            "filename": "InFlight-WW-11.0.1.zip",
+            "nolib": false,
+            "metadata": [
+                {
+                    "flavor": "mainline",
+                    "interface": 110000
+                }
+            ]
+        }
+    ]
+}
