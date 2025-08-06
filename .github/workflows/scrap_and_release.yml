@@ -49,7 +49,7 @@ jobs:
         id: curl-curseforge
         run: |
           curl -H 'Accept: application/json' \
-            'https://www.curseforge.com/api/v1/mods/1057838/files?pageIndex=0&pageSize=10&sort=dateCreated&sortDescending=true&removeAlphas=true' \
+            'https://www.curseforge.com/api/v1/mods/20147/files?pageIndex=0&pageSize=10&sort=dateCreated&sortDescending=true&removeAlphas=true' \
             -o curse-response.json
           fileNameRaw=$(cat curse-response.json | jq -r '.data[0].fileName')
           fileNameFixed=${fileNameRaw%.*}
